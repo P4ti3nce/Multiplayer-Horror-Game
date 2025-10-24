@@ -22,7 +22,7 @@ namespace SteamLobbyNamespace
         protected Callback<LobbyEnter_t> lobbyEntered;
         protected Callback<LobbyChatUpdate_t> lobbyChatUpdate;
 
-        public string panelName;
+        
 
         private const string HostAddressKey = "HostAddress";
 
@@ -95,7 +95,7 @@ namespace SteamLobbyNamespace
             networkManager.networkAddress = _hostAddress;
             Debug.Log("Entered lobby: " + callback.m_ulSteamIDLobby);
             networkManager.StartClient();
-            panelName = "ForestLobbyPanel";
+            
             panelSwapper.SwapPanel("ForestLobbyPanel");
         }
         void OnLobbyChatUpdate(LobbyChatUpdate_t callback)
@@ -162,7 +162,7 @@ namespace SteamLobbyNamespace
 
             panelSwapper.gameObject.SetActive(true);
             this.gameObject.SetActive(true );
-            panelSwapper.SwapPanel("GameSelectPanel");
+            panelSwapper.SwapPanel("HostGamePanel");
         }
     }
 }

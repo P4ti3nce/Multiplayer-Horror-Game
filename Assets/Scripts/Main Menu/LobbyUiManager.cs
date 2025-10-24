@@ -79,6 +79,7 @@ namespace SteamLobbyNamespace
                 playerNameTexts.Add(txtMesh);
 
                 string playerName = SteamFriends.GetFriendPersonaName(member);
+                Debug.Log(playerName);
                 playerNameTexts[j].text = playerName;
                 j++;
             }
