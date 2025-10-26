@@ -279,6 +279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6242280416798290678}
   - component: {fileID: 4978833453909497881}
+  - component: {fileID: 8325267800540734444}
   - component: {fileID: 8843640812805814179}
   m_Layer: 5
   m_Name: PlayerLobbySlot
@@ -326,6 +327,24 @@ MonoBehaviour:
   isReaady: 0
   readyButton: {fileID: 1985435700950930237}
   nameText: {fileID: 8886092287268172855}
+--- !u!114 &8325267800540734444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2168776895602210751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a765250b6706d4fa9a4a080edf29fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SteamLobbyNamespace.ChatBehaviour
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  chatUI: {fileID: 0}
+  chatText: {fileID: 0}
+  inputField: {fileID: 0}
 --- !u!114 &8843640812805814179
 MonoBehaviour:
   m_ObjectHideFlags: 0
