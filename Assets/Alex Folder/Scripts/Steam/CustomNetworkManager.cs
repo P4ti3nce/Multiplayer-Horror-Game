@@ -89,7 +89,7 @@ public class CustomNetworkManager : NetworkManager
     /// <param name="newSceneName"></param>
     public override void ServerChangeScene(string newSceneName)
     {
-        if (newSceneName == "GameplayScene")
+        if (newSceneName == "HorrorForest")
         {
             this.playerPrefab = playerGameplayPrefab;
             this.onlineScene = newSceneName;

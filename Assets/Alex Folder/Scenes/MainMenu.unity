@@ -476,7 +476,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 4
+  m_ChildAlignment: 1
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
@@ -1225,7 +1225,8 @@ MonoBehaviour:
   playerPrefab: {fileID: 2168776895602210751, guid: 795708a5fef771a4fa9fbf128014b0db, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
-  spawnPrefabs: []
+  spawnPrefabs:
+  - {fileID: 9083136561801229207, guid: b4f59200ed040af42893a07fe0181174, type: 3}
   exceptionsDisconnect: 1
   snapshotSettings:
     bufferTimeMultiplier: 2
@@ -1241,7 +1242,7 @@ MonoBehaviour:
   evaluationMethod: 0
   evaluationInterval: 3
   timeInterpolationGui: 0
-  playerGameplayPrefab: {fileID: 2168776895602210751, guid: 795708a5fef771a4fa9fbf128014b0db, type: 3}
+  playerGameplayPrefab: {fileID: 0}
 --- !u!114 &756271878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3068,8 +3069,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 528813566}
+  - {fileID: 1696142938}
   - {fileID: 458763996}
   - {fileID: 756271880}
   - {fileID: 924731032}
-  - {fileID: 1696142938}
   - {fileID: 1817173265}

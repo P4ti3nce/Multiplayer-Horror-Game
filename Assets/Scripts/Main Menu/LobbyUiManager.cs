@@ -89,7 +89,7 @@ namespace SteamLobbyNamespace
         {
             if (NetworkServer.active)
             {
-                CustomNetworkManager.singleton.ServerChangeScene("GameplayScene");
+                CustomNetworkManager.singleton.ServerChangeScene("HorrorForest");
             }
         }
 

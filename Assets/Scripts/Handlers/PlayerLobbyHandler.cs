@@ -40,7 +40,7 @@ namespace SteamLobbyNamespace
         }
         public void OnReadyButtonClicked()
         {
-
+            CmdSetReady();
         }
         void SetSelectedButtonColor(Color color)
         {
